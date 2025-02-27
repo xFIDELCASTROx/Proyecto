@@ -1,5 +1,7 @@
+hola este es mi proyecto para la univeridad espero que les guste 
+
 print("bienvenido al sistema de venta de boletos de Laser Airlines")
-print("por favor, seleccione una opción del menú: ")
+print("por favor, seleccione una opción del menú: ")	
 
 total_boletos_vendidos = 0
 ingresos_primera = 0
@@ -16,7 +18,6 @@ while True:
     print("2. ver sistema")
     print("3. salir")
     opcion = input("selecione una opción: ")
-
     if opcion == "1":
         num_boletos = int(input("número de boletos a vender: "))
         i = 0
